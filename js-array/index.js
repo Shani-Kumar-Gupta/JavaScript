@@ -25,6 +25,20 @@ var arr1 = ["Information", {"Name" : "Shani Kumar Gupta", "Age" : 21, "College" 
 console.log("Array Objects = ", arr1);
 console.log("Info = ", arr1[1].Name);
 
+// Looping Array Element
+var arrLoop = ["HTML", "CSS", "JS", "Bootstrap", "ReactJS", "Angular", "NextJS", "NodeJS", "Express", "MongoDB", "SQL"];
+// 1. Using for loop
+console.log("Array looping using for loop::::::")
+for(var i=0; i<arrLoop.length; i++){
+    console.log(i,"." ,arrLoop[i]);
+}
+
+// 2. Using foreach()
+console.log("Array looping using foreach ")
+arrLoop.forEach((number) => {
+    console.log(number);
+})
+
 // Array method
 // 1. length : used to get the number of element present in an array
 console.log("length = ", arr1.length);
